@@ -12,7 +12,7 @@
 
 ### [CC98 自动签到模块](cc98autocheckin_module.py)
 
-将你的 CC98 Cookie 中 aspsky 的值作为 cookies 数组的一员，写入到 `conf/cc98.py` 后即可运行 `cc98autocheckin_module.py` 啦
+需要配置`conf/cc98.py`：将你的 CC98 Cookie 中 aspsky 的值作为 cookies 数组的一员，写入到 `conf/cc98.py` 后即可运行 `cc98autocheckin_module.py` 啦
 
 预期效果: 签到后推送本次签到获得的 CC98 米和目前拥有的 CC98 米
 
@@ -23,6 +23,12 @@
 需要配置`conf/zuinfo.py`，写入你的学号 `xh` 和 统一通行证密码 `password`
 
 预期效果：推送距离上次查询花费的电费，以及预估每天电费
+
+### [NHD 自动签到模块](nhdautocheckin_module.py)
+
+需要配置`conf/nhd.py`，写入你的 Cookie，注意页面设置应该为英文版
+
+预期效果：自动签到，推送当前魔力值，和获取魔力值的速度
 
 ----
 
