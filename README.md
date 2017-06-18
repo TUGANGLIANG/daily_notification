@@ -4,11 +4,13 @@
 
 ## 如何使用
 
+运行本项目需要自行配置一些 `conf` 文件，参见 [conf_example](conf_example/)
+
 首先你需要在[Server酱](http://sc.ftqq.com/)上获取一个`SCKEY` ， 使用 Github 账号 Oauth 登录，绑定你的微信，将获取的 SCKEY 写入到`conf/sc.py`中
 
 目前完成的模块： 
 
-### CC98 自动签到模块
+### [CC98 自动签到模块](cc98autocheckin_module.py)
 
 将你的 CC98 Cookie 中 aspsky 的值作为 cookies 数组的一员，写入到 `conf/cc98.py` 后即可运行 `cc98autocheckin_module.py` 啦
 
