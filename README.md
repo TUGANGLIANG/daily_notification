@@ -18,6 +18,12 @@
 
 ![](nothing/cc98.png)
 
+### [电表查询模块](electricitybill_module.py)
+
+需要配置`conf/zuinfo.py`，写入你的学号 `xh` 和 统一通行证密码 `password`
+
+预期效果：推送距离上次查询花费的电费，以及预估每天电费
+
 ----
 
 ## 目录结构

@@ -1,5 +1,8 @@
 from base import DailyNotification_Base
 from EasyLogin import EasyLogin
+
+__all__ = ["cc98autocheckin"]
+
 def checkin(cookie):
     a=EasyLogin(cookie={"aspsky":cookie})
     a.get("http://www.cc98.org/signin.asp",result=False)
