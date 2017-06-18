@@ -4,7 +4,7 @@
 
 ## 如何使用
 
-首先你需要去这里 http://sc.ftqq.com/， 使用 Github 账号 Oauth 登录，绑定你的微信
+首先你需要在[Server酱](http://sc.ftqq.com/)上获取一个`SCKEY` ， 使用 Github 账号 Oauth 登录，绑定你的微信，将获取的 SCKEY 写入到`conf/sc.py`中
 
 目前完成的模块： 
 
@@ -13,6 +13,8 @@
 将你的 CC98 Cookie 中 aspsky 的值作为 cookies 数组的一员，写入到 `conf/cc98.py` 后即可运行 `cc98autocheckin_module.py` 啦
 
 预期效果: 签到后推送本次签到获得的 CC98 米和目前拥有的 CC98 米
+
+![](nothing/cc98.png)
 
 ----
 
